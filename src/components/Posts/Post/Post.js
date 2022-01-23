@@ -80,8 +80,8 @@ const Post = ({ post, setCurrentId }) => {
 
   const openPost = (e) => {
     //dispatch(getPost(post._id, history));
-    //history.push(`/posts/${post._id}`);
-    window.location.assign(`/posts/${post._id}`);
+    history.push(`/posts/${post._id}`);
+    //window.location.assign(`/posts/${post._id}`);
   };
 
   return (
